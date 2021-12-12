@@ -147,7 +147,7 @@ async def play(_, message: Message):
             else file_name,
         )
         title = "Selected Audio from Telegram"
-        link = "https://t.me/Itz_Venom_xD"
+        link = "https://t.me/Timesisnotwaiting"
         thumb = "cache/audioplay.jpg"
         videoid = "smex1"
     elif url:
