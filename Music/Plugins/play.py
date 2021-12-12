@@ -67,7 +67,7 @@ async def play(_, message: Message):
     username = message.from_user.first_name
     checking = f"[{message.from_user.first_name}](tg://user?id={message.from_user.id})"
     if await is_on_off(1):
-        LOG_ID = "-1001429892362"
+        LOG_ID = "-1001719865866"
         if int(chat_id) != int(LOG_ID):
             return await message.reply_text(f">> ❌ Bot is under Maintenance, Sorry for the inconvenience!")
         return await message.reply_text(f">> ❌ Bot is under Maintenance, Sorry for the inconvenience!")
@@ -147,7 +147,7 @@ async def play(_, message: Message):
             else file_name,
         )
         title = "Selected Audio from Telegram"
-        link = "https://t.me/Timesisnotwaiting"
+        link = "https://t.me/Itz_Venom_xD"
         thumb = "cache/audioplay.jpg"
         videoid = "smex1"
     elif url:
